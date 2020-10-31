@@ -1,0 +1,30 @@
+{
+  "name": "faceapi-node.js-demo",
+  "version": "1.0.0",
+  "description": "Demo para realizar reconhecimento de imagem via Face API & Node.js",
+  "main": "face-detection.js",
+  "scripts": {
+    "dev": "node src/face-detection.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleysrael/faceapi-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cognitive-services",
+    "azure",
+    "face-api",
+    "javascript"
+  ],
+  "author": "Wesley Israel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleysrael/faceapi-nodejs/issues"
+  },
+  "homepage": "https://github.com/wesleysrael/faceapi-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  }
+}
